@@ -8,7 +8,6 @@ Maplunky is an open-source, fan-made "what you see is what you get" map editor f
 It provides super easy editing of multiplayer deathmatch maps, allowing for a whole new dimension of fun using both the singleplayer and multiplayer map tiles.  
 Maplunky is powered by node-webkit and an assortment of JS libraries. These are all bundled together nicely into a single, portable app using Enigma Virtual Box.
 
-**GUI:**
 ![](https://raw.githubusercontent.com/ryanmcnz/maplunky/master/screenshot.jpg)
 
 **Features:**
