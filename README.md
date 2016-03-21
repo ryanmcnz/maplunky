@@ -30,6 +30,10 @@ Feel free to hunt down any map blocks that were missed, and are a must-have.
 - Find a way of disabling the menu transition delays, they're really slow.
 - A cool car. Maybe a Toyota Supra MK3, or perhaps the Bugatti Type 57 Atlantic...aww yeah.
 
+**Credits:**
+- Maplunky is inspired by the original map editor that came with [Frozlunky](http://sashavol.com/frozlunky/), a Spelunky HD mod that adds the brilliance of co-op gameplay
+- A big thanks to [Liam](https://github.com/LiamKarlMitchell) for figuring out the patchable maps in the game files.
+
 **Disclaimer:**
 
 Maplunky is a free, fan-made project created solely for fun, and is not affiliated with Mossmouth, LLC.  
