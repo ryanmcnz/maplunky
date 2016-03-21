@@ -30,6 +30,9 @@ Feel free to hunt down any map blocks that were missed, and are a must-have.
 - A cool car. Maybe a Toyota Supra MK3, or perhaps the Bugatti Type 57 Atlantic...aww yeah.
 
 **Disclaimer:**
+
 Maplunky is a free, fan-made project created solely for fun, and is not affiliated with Mossmouth, LLC.
+
 Spelunky HD belongs to Derek Yu and Mossmouth, LLC.
+
 ***Derek Yu is awesome.***
