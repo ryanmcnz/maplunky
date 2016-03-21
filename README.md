@@ -2,11 +2,10 @@
 
 Maplunky is an open-source, fan-made "what you see is what you get" map editor for Spelunky HD:
 
-[Watch trailer demonstrating Maplunky](https://www.youtube.com/watch?v=ZusFE2Uu8qA)
-
+[Watch trailer demonstrating Maplunky](https://www.youtube.com/watch?v=ZusFE2Uu8qA)  
 [Try Maplunky in the browser](http://codepen.io/ryanmcnz/full/VapxVm/)
 
-It provides super easy editing of multiplayer deathmatch maps, allowing for a whole new dimension of fun using both the singleplayer and multiplayer map tiles.
+It provides super easy editing of multiplayer deathmatch maps, allowing for a whole new dimension of fun using both the singleplayer and multiplayer map tiles.  
 Maplunky is powered by node-webkit and an assortment of JS libraries. These are all bundled together nicely into a single, portable app using Enigma Virtual Box.
 
 **GUI:**
@@ -20,7 +19,7 @@ Maplunky is powered by node-webkit and an assortment of JS libraries. These are 
  - Easy copy-paste of raw map data, for those who might want to take things into a text editor by hand.
  - Ability to export maps to file, and re-import them simply by using file drag 'n' drop.
 
-*NOTE:* This project is still a work in progress. Bugs will exist, and not all map blocks are added yet (some of them don't work in deathmatch, and others have abnormal behaviors that will probably crash the game).
+*NOTE:* This project is still a work in progress. Bugs will exist, and not all map blocks are added yet (some of them don't work in deathmatch, and others have abnormal behaviors that will probably crash the game).  
 Feel free to hunt down any map blocks that were missed, and are a must-have.
 
 **Known Bugs:**
@@ -33,8 +32,6 @@ Feel free to hunt down any map blocks that were missed, and are a must-have.
 
 **Disclaimer:**
 
-Maplunky is a free, fan-made project created solely for fun, and is not affiliated with Mossmouth, LLC.
-
-Spelunky HD belongs to Derek Yu and Mossmouth, LLC.
-
+Maplunky is a free, fan-made project created solely for fun, and is not affiliated with Mossmouth, LLC.  
+Spelunky HD belongs to Derek Yu and Mossmouth, LLC.  
 ***Derek Yu is awesome.***
