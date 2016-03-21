@@ -1,6 +1,7 @@
 # Maplunky - WYSIWYG map editor for Spelunky HD
 
 Maplunky is an open-source, fan-made "what you see is what you get" map editor for Spelunky HD:
+
 [Click here to watch a trailer demonstrating Maplunky](https://www.youtube.com/watch?v=ZusFE2Uu8qA)
 
 It provides super easy editing of multiplayer deathmatch maps, allowing for a whole new dimension of fun using both the singleplayer and multiplayer map tiles.
