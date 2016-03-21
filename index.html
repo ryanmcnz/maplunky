@@ -1,0 +1,97 @@
+<html>
+<head>
+  <title>Maplunky</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="drag_drop_overlay">
+        <div class="panel">
+            <p>Drag 'n' drop a Spelunky map file here to replace the current map</p>
+            <span class="dragdrop"></span>
+        </div>
+    </div>
+
+    <div id="loading_screen">
+        <input style="display:none;" id="select_folder_dialog" type="file" nwdirectory />
+        <div class="panel">
+            <p>Loading<span class="hourglass"></span></p>
+            <span class="folder_resolve">Failed to find Spelunky folder, please select it manually<br><button id="select_spelunky_folder">Select Spelunky Folder</button></span>
+        </div>
+    </div>
+    
+    <div id="map_tiles_filters"></div>
+    <div id="map_tiles_list" class="tiles">
+    </div>
+
+    <!-- <button id="debug_reload" style="background:#000; position:absolute; top:40px; left:0px; z-index:200;">Reload</button> -->
+
+    <div id="top_bar">
+        <span class="val"><span id="logo_top"></span>Maplunky<i>&nbsp;-&nbsp;WYSIWYG map editor for Spelunky HD</i></span>
+        <button id="close_app"></button>
+    </div>
+
+	<div id="raw_map_area">
+    	<div class="title" id="lbl_map_data_chars">Raw Map Data</div>
+		<textarea id="map_data_chars" readonly></textarea>
+        <div class="controls"><button id="raw-copy">Copy</button><button id="raw-paste">Paste</button></div>
+	</div>
+
+	<div id="map_list_area">
+	    <div id="map_groups">
+	        <button class="left"></button>
+	        <span class="val"></span>
+	        <button class="right"></button>
+	    </div>
+	    
+	    <div id="maps_menu" class="menu"></div>
+        
+	</div>
+    
+    <input style="display:none;" id="export_file_dialog" type="file" nwsaveas="map.splmap" />
+    
+    <div id="main_menu" class="menu">
+        <li id="export_current_map">Export Map</li>
+        <li id="reset_listed_maps">Reset Listed Maps</li>
+        <li id="clear_listed_maps">Clear Listed Maps</li>
+        <hr>
+        <li id="save_all_maps" disabled class="li_btn">Save All Maps</li>
+        <li id="launch_game" class="li_btn">Play Game</li>
+    </div>
+    
+    <div id="map_area">
+        <table brush="" group="jungle"><tbody>
+        </tbody></table>
+    </div>
+    <div id="status_bar"></div>
+
+<!-- BEGIN: JSRender HTML Templates -->
+<script id="tmpl_map_list_entry" type="text/x-jsrender">
+    <li {{if !isDefault}}class="is_changed"{{/if}}>{{:mapName}}<span class="custom_msg">(custom)</span>
+    <button class="clear_map" hint="Clear Map"></button><button class="reset_map" hint="Reset Map"></button>
+    </li>
+</script>
+
+<script id="tmpl_map_tile_list_entry" type="text/x-jsrender">
+    <p filter-group="{{:filterGroup}}" bl_{{:id}}>{{:name}}</p>
+</script>
+
+<script id="tmpl_tile_cell" type="text/x-jsrender">
+    {{if #index == 0}}<tr>{{/if}}{{if (#index % 20) == 0 && #index > 0}}</tr><tr>{{/if}}<td bl_{{:#data}}></td>{{if #index == 239}}</tr>{{/if}}
+</script>
+
+<script id="tmpl_tile_filter" type="text/x-jsrender">
+    <button>{{:#data}}</button>
+</script>
+<!-- END: JSRender HTML Templates -->
+
+<script src="context-menu.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jsrender.min.js"></script>
+<script src="ObjectWatch.js"></script>
+<script src="SearchFileBuffer.js"></script>
+<script src="md5.js"></script>
+<script src="MapData.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

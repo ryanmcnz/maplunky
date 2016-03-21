@@ -1,0 +1,18 @@
+{
+  "name": "Maplunky",
+  "version": "1",
+  "main": "index.html",
+  "window": {
+    "icon": "img/Maplunky.png",
+    "title": "Maplunky",
+    "frame": false,
+    "width": 1080,
+    "max_width": 1080,
+    "height": 690,
+    "max_height": 690,
+    "fullscreen": false,
+    "toolbar": false,
+    "position": "center",
+    "resizable": false
+  }
+}
