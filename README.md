@@ -2,7 +2,9 @@
 
 Maplunky is an open-source, fan-made "what you see is what you get" map editor for Spelunky HD:
 
-[Click here to watch a trailer demonstrating Maplunky](https://www.youtube.com/watch?v=ZusFE2Uu8qA)
+[Watch trailer demonstrating Maplunky](https://www.youtube.com/watch?v=ZusFE2Uu8qA)
+
+[Try Maplunky in the browser](http://codepen.io/ryanmcnz/full/VapxVm/)
 
 It provides super easy editing of multiplayer deathmatch maps, allowing for a whole new dimension of fun using both the singleplayer and multiplayer map tiles.
 Maplunky is powered by node-webkit and an assortment of JS libraries. These are all bundled together nicely into a single, portable app using Enigma Virtual Box.
