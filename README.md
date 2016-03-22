@@ -19,10 +19,7 @@ Maplunky is powered by node-webkit and an assortment of JS libraries. These are 
  - Ability to export maps to file, and re-import them simply by using file drag 'n' drop.
 
 *NOTE:* This project is still a work in progress. Bugs will exist, and not all map blocks are added yet (some of them don't work in deathmatch, and others have abnormal behaviors that will probably crash the game).  
-Feel free to hunt down any map blocks that were missed, and are a must-have.
-
-**Known Bugs:**
-- The drag 'n' drop overlay sometimes gets stuck. If it happens, simply click out of the window and back in.
+Feel free to hunt down any map blocks that were missed, and are a must-have. This is also open to pull requests, especially if anyone wants to consider tackling non-deathmatch maps.
 
 **Wishlist:**
 - Modify Spelunky HD so that launches directly into the deathmatch screen. Yup, that part of the video is a lie!
