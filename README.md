@@ -22,7 +22,7 @@ Maplunky is powered by node-webkit and an assortment of JS libraries. These are 
 Feel free to hunt down any map blocks that were missed, and are a must-have. This is also open to pull requests, especially if anyone wants to consider tackling non-deathmatch maps.
 
 **Wishlist:**
-- Modify Spelunky HD so that launches directly into the deathmatch screen. Yup, that part of the video is a lie!
+- Modify Spelunky HD so that it launches directly into the deathmatch screen. Yup, that part of the video is a lie!
 - Find a way of disabling the menu transition delays, they're really slow.
 - A cool car. Maybe a Toyota Supra MK3, or perhaps the Bugatti Type 57 Atlantic...aww yeah.
 
