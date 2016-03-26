@@ -462,7 +462,7 @@ function initFileDrag(){
 function fileDragEnter(ev){
 	ev.preventDefault();
 	//Ignore the titlebar entirely
-	if(ev.target.id == "top_bar"){
+	if(ev.target.id == "top_bar" || ev.target.id == "close_app"){
 		appState.dragOverlayEntered = false;
 		appState.dragInProgress = false;
 		return;
@@ -486,7 +486,7 @@ function fileDragEnter(ev){
 function fileDragLeave(ev){
 	ev.preventDefault();
 	//Disregard drag leave events unless events are firing on the actual drag-drop overlay, rather than the DOM behind it
-	if(appState.dragOverlayEntered && ev.target.id == "drag_drop_overlay"){
+	if( (appState.dragOverlayEntered && ev.target.id == "drag_drop_overlay") || ev.target.id == "close_app" ){
 		appState.dragOverlayEntered = false;
 		appState.dragInProgress = false;
 	}
