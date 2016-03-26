@@ -100,11 +100,11 @@ var gameTiles = [
 	,{id: "0", 				name:"Nothing", 				filterGroup: "Terrain" }
 	,{id: "caps_b", 		name:"Unbreakable", 			filterGroup: "Terrain" }
 	,{id: "1", 				name:"Dirt", 					filterGroup: "Terrain" }
-	,{id: "2", 				name:"Random Chance Dirt", 		filterGroup: "Terrain" }
-	,{id: "h", 				name:"Sand", 					filterGroup: "Terrain" }
+	,{id: "2", 				name:"Random Dirt / Air", 		filterGroup: "Terrain" }
+	,{id: "h", 				name:"Honeycomb",				filterGroup: "Terrain" }
 
-	,{id: "r", 				name:"Stone", 					filterGroup: "Terrain" }
-	,{id: "caps_r",			name:"Clay", 					filterGroup: "Terrain" }
+	,{id: "r", 				name:"Random Dirt / Brick",		filterGroup: "Terrain" }
+	,{id: "caps_r",			name:"Temple / Castle Brick",	filterGroup: "Terrain" }
 
 	,{id: "l", 				name:"Ladder", 					filterGroup: "Terrain" }
 	,{id: "caps_l", 		name:"Climbable (Themed)",		filterGroup: "Terrain" }
@@ -117,39 +117,39 @@ var gameTiles = [
 	,{id: "caps_o",			name:"Boulder",					filterGroup: "Terrain" }
 
 	,{id: "i", 				name:"Ice", 					filterGroup: "Terrain" }
-	,{id: "j", 				name:"Random Chance Ice", 		filterGroup: "Terrain" }
+	,{id: "j", 				name:"Random Ice / Air", 		filterGroup: "Terrain" }
 	,{id: "underscore", 	name:"Ice Ledge", 				filterGroup: "Terrain" }
 
-	,{id: "f", 				name:"Unstable Ledge", 			filterGroup: "Terrain" }
+	,{id: "f", 				name:"Falling Platform",		filterGroup: "Terrain" }
 
 	,{id: "w", 				name:"Water", 					filterGroup: "Terrain" }
 	,{id: "hash", 			name:"Pushable Block", 			filterGroup: "Moving" }
 	,{id: "caps_x", 		name:"Unmovable Block", 		filterGroup: "Terrain" }
-	,{id: "x", 				name:"Sacrifice Bench", 		filterGroup: "Monsters" }
+	,{id: "x", 				name:"Sacrifice Altar", 		filterGroup: "Monsters" }
 	,{id: "caps_t", 		name:"Tree", 					filterGroup: "Terrain" }
 	,{id: "caps_m", 		name:"Up/Down Elevator", 		filterGroup: "Moving" }
 	,{id: "caps_s", 		name:"Jump Pad", 				filterGroup: "Moving" }
-	,{id: "caps_p", 		name:"Exploding Box", 			filterGroup: "Traps" }
+	,{id: "caps_p", 		name:"TNT",						filterGroup: "Traps" }
 	,{id: "caps_j", 		name:"Jetpack", 				filterGroup: "Spawns" }
-	,{id: "k", 				name:"Pick Axe", 				filterGroup: "Spawns" }
+	,{id: "k", 				name:"Mattock", 				filterGroup: "Spawns" }
 	,{id: "caps_d", 		name:"Passive Totem Head", 		filterGroup: "Terrain" }
-	,{id: "g", 				name:"Gold Totem Head", 		filterGroup: "Terrain" }
+	,{id: "g", 				name:"Gold Idol",		 		filterGroup: "Terrain" }
 
 	,{id: "caps_i",			name:"Totem", 					filterGroup: "Terrain" }
 
-	,{id: "t", 				name:"Spike Totem", 			filterGroup: "Traps" }
-	,{id: "caps_h", 		name:"Directional Smasher", 	filterGroup: "Moving" }
-	,{id: "caps_k", 		name:"Pushable Spike Ball", 	filterGroup: "Moving" }
+	,{id: "t", 				name:"Dirt / Tiki Trap / Air",	filterGroup: "Traps" }
+	,{id: "caps_h", 		name:"Thwomp (Smasher)",		filterGroup: "Moving" }
+	,{id: "caps_k", 		name:"Spike Ball Anchor",	 	filterGroup: "Moving" }
 	,{id: "z", 				name:"Turret", 					filterGroup: "Traps" }
 	,{id: "caps_z", 		name:"Zapper", 					filterGroup: "Traps" }
 	,{id: "caps_g", 		name:"Big Spider", 				filterGroup: "Monsters" }
-	,{id: "caps_q", 		name:"Big Alien", 				filterGroup: "Monsters" }
+	,{id: "caps_q", 		name:"Alien Queen",				filterGroup: "Monsters" }
 	,{id: "m", 				name:"Mammoth", 				filterGroup: "Monsters" }
 
 	,{id: "caps_e",			name:"Flesh", 					filterGroup: "Terrain" }
 
-	,{id: "greater_than", 	name:"Blob Floor", 			filterGroup: "Monsters" }
-	,{id: "less_than", 		name:"Blob Ceiling", 		filterGroup: "Monsters" }
+	,{id: "greater_than", 	name:"Blob Floor", 				filterGroup: "Monsters" }
+	,{id: "less_than", 		name:"Blob Ceiling", 			filterGroup: "Monsters" }
 ];
 
 var allowedTileChars = [
