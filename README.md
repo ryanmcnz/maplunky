@@ -14,8 +14,8 @@ Maplunky is powered by node-webkit and an assortment of JS libraries. These are 
 
  - Automatic locating of your Spelunky install, either via GOG or Steam (if this fails, Maplunky will ask for it instead)
  - Add and delete blocks via a handy tile brush using mouse left/right click.
- - Easily switch between deathmatch maps, emptying or reverting them at any time.
- - Easy copy-paste of raw map data, for those who might want to take things into a text editor by hand.
+ - Switch between deathmatch maps, emptying or reverting them at any time.
+ - Copy-paste of raw map data, for those who might want to take things into a text editor by hand.
  - Ability to export maps to file, and re-import them simply by using file drag 'n' drop.
 
 *NOTE:* This project is still a work in progress. Bugs will exist, and not all map blocks are added yet (some of them don't work in deathmatch, and others have abnormal behaviors that will probably crash the game).  
