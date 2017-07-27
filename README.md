@@ -1,4 +1,4 @@
-# Maplunky - WYSIWYG map editor for Spelunky HD
+# Maplunky - Map editor for Spelunky HD
 
 Maplunky is an open-source, fan-made "what you see is what you get" map editor for Spelunky HD:
 
