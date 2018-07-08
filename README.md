@@ -22,5 +22,5 @@ Maplunky allows editing of the default multiplayer deathmatch maps in Spelunky H
 
 **Disclaimer:**
 
-Maplunky is not affiliated with Mossmouth, LLC.
-Spelunky HD belongs to Derek Yu and Mossmouth, LLC.
+- Maplunky is not affiliated with Mossmouth, LLC.
+- Spelunky HD belongs to Mossmouth, LLC.
