@@ -6,13 +6,14 @@ These instructions are for bundling the Maplunky files together with node-webkit
 
  - The latest 32bit version of [NW.js](http://nwjs.io/downloads/) / node-webkit. 
  - [Resource Hacker](http://www.angusj.com/resourcehacker/) (for icon replacement). 
+ - [Resource Cracker](https://www.pelock.com/products/resource-cracker)
  - [petite](http://www.un4seen.com/petite/), un4seen's EXE compression tool. 
  - [Enigmia Virtual Box](http://enigmaprotector.com/en/aboutvb.html).
  - [The source-code for Maplunky](https://github.com/ryanmcnz/maplunky/releases)
 
 **Build steps:**
 
- - Replace the icon of nw.exe using Resource Hacker (optional, if you want a custom EXE icon).
+ - Replace the icon of nw.exe using Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker) (optional, if you want a custom EXE icon).
  - Compress nw.exe using petite (shrinks it down from about 70MB+ to around 25MB ish).
  - Make sure your Maplunky source-code files are all cleaned up! (eg. no unwanted temporary files in the relative path, such as config files).
  - Copy all of the Maplunky files into the same directory as nw.exe (eg. so that package.json and index.html are in the same folder as nw.exe)
